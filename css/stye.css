@@ -1,0 +1,120 @@
+body{
+    font-family: 'Jost', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+.header-page__image{
+
+ background: 50% 0% url(/css/img/header/background.png);
+ background-size: cover; 
+ background-repeat: no-repeat; 
+ background-position: center;
+ max-width: 100%;
+ height: 900px;
+
+}
+
+.header{
+  
+  display: flex;
+  justify-content:space-between;
+  margin: 0 auto;
+  padding: 0 50px;
+  padding-top: 50px;
+
+}
+.header__logo{
+    margin-right: 250px;
+}
+
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    padding: 0%; 
+    margin: 0%;
+}
+.nav__link:hover{
+    padding-bottom: 5px;
+    border-bottom: 1.7px solid #4d4d4d;
+    text-transform: capitalize;
+}
+.nav__link{
+    
+    color: black;
+    text-decoration: none;
+}
+
+.nav__item:not(:last-child){
+    margin-right: 40px;
+}
+/* */
+
+.shop-nav{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+.shop-nav {
+    margin: 0%;
+    padding: 0;
+}
+ 
+
+.shop-nav__item:not(:first-child){
+    margin-left: 25px;
+
+} 
+shop-nav__link{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.shop-nav__link{
+   
+    text-decoration: none;
+    list-style-type: none;
+}
+.card__quantity{
+    color: white;
+    background-color: black;
+    border-radius: 100%;
+    height: 16px;
+    padding: 0 5px;
+}
+
+.main__conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 823px;
+    padding: 0 170px;
+
+    margin: 0 auto;
+   
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.header-text__title{
+    font-size: 72px;
+    line-height: 80px;
+    margin: 0%;
+}
+
+.header-text__subtitle{
+    margin: 0%;
+}
